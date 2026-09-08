@@ -1,4 +1,4 @@
-const CACHE = 'spielleiter-assistent-0.9.9-v1';
+const CACHE = 'spielleiter-assistent-0.9.10-v1';
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(['./', './manifest.webmanifest', './styles.css'])));
   self.skipWaiting();
